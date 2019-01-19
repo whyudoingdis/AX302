@@ -1,0 +1,17 @@
+h1{
+	color: red;
+	font-family: Roboto;
+
+}
+img{
+	width: 300;
+	height: 300;
+}
+body{
+	background-color: turquoise;
+}
+p{
+	background-color:red;
+	font-family: Impact;
+	color:turqouise;
+}
