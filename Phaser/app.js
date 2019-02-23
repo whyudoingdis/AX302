@@ -30,8 +30,8 @@ ledge2 = platforms.create(-100,250,'platform');
 	ledge2.body.immovable = true;
 
 	var style = {font: "bold 32px Arial", fill:"#fff"};
-	scorelabel = game.add.text(300,560,"Score:", style);
-	scoretext = game.add.text(420,560,score, style);
+	scorelabel = game.add.text(200,360,"Score:", style);
+	scoretext = game.add.text(350,520,score, style);
 	
 	livelabel = game.add.text(300,560,"Lives:", style);
 	livetext = game.add.text(420,560,lives, style);
