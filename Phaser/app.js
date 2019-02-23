@@ -36,7 +36,7 @@ ledge2 = platforms.create(-100,250,'platform');
 	livelabel = game.add.text(300,560,"Lives:", style);
 	livetext = game.add.text(420,560,lives, style);
 
-	liveslabel.setShadow(3,3,'rgba(0,0,0,0.5)',2);
+	livelabel.setShadow(3,3,'rgba(0,0,0,0.5)',2);
 }
 
 function update(){}
