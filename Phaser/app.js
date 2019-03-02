@@ -83,7 +83,7 @@ if(aKey.isDown){
 player.body.velocity.x = -150;
 player.animations.play("left");
 
-} else if(dKey.isDown){
+} else if(dKey.isDown)
 player.body.velocity.x = +150;
 player.animations.play("right");
 }
