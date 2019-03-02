@@ -79,7 +79,7 @@ game.physics.arcade.collide(enemy, platforms);
 player.body.velocity.x = 0;
 
 
-if(aKey.isDown)
+if(aKey.isDown){
 player.body.velocity.x = -150;
 player.animations.play("left");
 
